@@ -58,7 +58,8 @@ def mostrar(titulo, blocos):
     print(f"{titulo:<12}: {formatado}")
 
 
-texto_plano = "11110110100101010"
+texto_plano = "1111 0110 1001 0101 0"
+texto_plano = "11110110111101010"
 chave = 0b1010
 iv = 0b0101  # vetor de inicialização, mesmo tamanho de um bloco
 

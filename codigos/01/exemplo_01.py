@@ -29,8 +29,6 @@ def cifrar_ecb(valor_inteiro, chave):
 
 
 mensagem = "vire a direita, depois  vire a esquerda"
-mensagem = "oi oi oi oi oi oi"
-mensagem = "1234 1234 1234 1234 1234 1234 1234 1234"
 
 blocos_texto = dividir_em_blocos(mensagem, TAMANHO_BLOCO)
 
